@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "word": "配慮",
+    "reading": "はいりょ",
+    "meaningEn": "consideration; care",
+    "meaningBn": "বিবেচনা; খেয়াল রাখা",
+    "example": "周囲の人に配慮して行動する。"
+  },
+  {
+    "id": 2,
+    "word": "習得",
+    "reading": "しゅうとく",
+    "meaningEn": "acquisition; mastery",
+    "meaningBn": "অর্জন; আয়ত্ত করা",
+    "example": "新しい技術を習得する。"
+  },
+    {
+        "id":"",
+        "word": "",
+        "meaningEn":"",
+        "meaningBn":"",
+        "example":""
+    }
+]

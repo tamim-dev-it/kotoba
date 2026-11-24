@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #faf6f7;
+  color: #201b49;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.word-card {
+  padding: 20px;
+  background: white;
+  border: 1px solid #eee4eb;
+  border-radius: 16px;
+}
+
+.reading {
+  color: #8c4f7a;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 16px;
+  }
+
+  .word-grid {
+    grid-template-columns: 1fr;
+  }
+}
